@@ -29,7 +29,7 @@ makeCacheMatrix <- function(matrixValue = matrix()) {
   }
   
   # Return the cached matrix object as a vector of functions
-  list(set=set, get=get, setinverse=setinverse, getinverse=getinverse)
+  list(set = set, get = get, setinverse = setinverse, getinverse = getinverse)
 }
 
 
